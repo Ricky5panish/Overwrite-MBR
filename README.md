@@ -1,9 +1,7 @@
 # Overwrite-MBR
 An example of how to overwrite the MBR of a hard drive using Golang
 
-Overwriting the systems MBR is a powerful method used by some Malwares to render the sytem unbootalble.
-This is because the MBR (first 512 bytes of the hard drive) contains important components to make a system bootable, like the bootloader and partition table.
-Since most computers today use UEFI with a GPT partition scheme instead of a legacy BIOS with an MBR partition scheme, this method is no longer as common as it used to be.
+Overwriting the systems MBR is a powerful method used by some malware to render the system unbootable. This is because the MBR (first 512 bytes of the hard drive) contains important components to make a system bootable, like the bootloader and partition table. Since most computers today use UEFI with a GPT partition scheme instead of a legacy BIOS with an MBR partition scheme, this method is no longer as common as it used to be.
 
 - Make sure you run the program with administrator privileges
 - Works only with MBR partition scheme (Legacy BIOS)
